@@ -1,0 +1,59 @@
+:root {
+  --bg-color: #0f172a;
+  --text-color: #f8fafc;
+  --accent-color: #38bdf8;
+  --secondary-bg: #1e293b;
+  --card-bg: #1e293b;
+  --text-muted: #94a3b8;
+  --transition: all 0.3s ease;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: var(--transition);
+}
+
+ul {
+  list-style: none;
+}
+
+section {
+  padding: 5rem 10%;
+}
+
+h1, h2, h3 {
+  margin-bottom: 1rem;
+}
+
+.accent {
+  color: var(--accent-color);
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  background-color: var(--secondary-bg);
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  section {
+    padding: 3rem 5%;
+  }
+}

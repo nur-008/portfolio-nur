@@ -1,0 +1,61 @@
+.cp-stats {
+  text-align: center;
+}
+
+.section-subtitle {
+  color: var(--text-muted);
+  margin-top: -2rem;
+  margin-bottom: 3rem;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.stat-card {
+  background-color: var(--card-bg);
+  padding: 2.5rem;
+  border-radius: 15px;
+  transition: var(--transition);
+  border: 1px solid transparent;
+}
+
+.stat-card:hover {
+  transform: translateY(-10px);
+  border-color: var(--accent-color);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.stat-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.stat-platform {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.stat-handle {
+  color: var(--text-muted);
+  font-family: monospace;
+  margin-bottom: 1.5rem;
+}
+
+.stat-count {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: var(--accent-color);
+}
+
+.trophy-icon {
+  font-size: 1.2rem;
+}

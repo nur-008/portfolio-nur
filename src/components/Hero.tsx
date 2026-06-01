@@ -18,6 +18,7 @@ const Hero = () => {
           <div className="social-links">
             <a href="https://github.com/nur-008" target="_blank" rel="noreferrer"><FaGithub /></a>
             <a href="https://www.linkedin.com/in/nur-mohammad-6377a8359/" target="_blank" rel="noreferrer"><FaLinkedin /></a>
+            <a href="https://vjudge.net/user/nur_cse_diu" target="_blank" rel="noreferrer" title="VJudge Profile"><FaCode /></a>
           </div>
         </div>
       </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import { SiCodeforces } from 'react-icons/si';
-import { FaTrophy, FaTerminal } from 'react-icons/fa';
+import { FaTrophy, FaTerminal, FaCode } from 'react-icons/fa';
 import './CPStats.css';
 
 const CPStats = () => {
@@ -20,6 +20,14 @@ const CPStats = () => {
       icon: <FaTerminal />, // Using FaTerminal instead of SiBeecrowd to be safe
       link: 'https://judge.beecrowd.com/en/profile/1034900',
       color: '#fbbe00'
+    },
+    {
+      platform: 'VJudge',
+      handle: 'nur_cse_diu',
+      solved: 'Active',
+      icon: <FaCode />,
+      link: 'https://vjudge.net/user/nur_cse_diu',
+      color: '#4caf50'
     }
   ];
 
